@@ -53,14 +53,18 @@ def value_iteration(P, gamma=1.0, theta=1e-10):
 ```
 
 ## OUTPUT:
+
 ### Optimal Policy
-![alt text](image.png)
+
+![alt text](output/image.png)
 
 ### Optimal Value 
-![alt text](image-1.png)
+
+![alt text](output/image-1.png)
 
 ### Success rate for Optimal Policy
-![alt text](image-2.png)
+
+![alt text](output/image-2.png)
 
 ## RESULT:
 
