@@ -29,6 +29,8 @@ Continue iterating through each state again and choose the action that gives to 
 ## VALUE ITERATION FUNCTION
 ### Name: Easwari M
 ### Register Number: 212223240033
+
+### Environment
 ```
 envdesc  = ['SFHS','HFFH','FFHF', 'HFGH']
 env = gym.make('FrozenLake-v1',desc=envdesc)
@@ -36,6 +38,7 @@ init_state = env.reset()
 goal_state = 14
 P = env.env.P
 ```
+## Value Iteration Function
 ```
 def value_iteration(P, gamma=1.0, theta=1e-10):
     V = np.zeros(len(P), dtype=np.float64)
